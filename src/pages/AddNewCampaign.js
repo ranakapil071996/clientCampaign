@@ -84,7 +84,7 @@ export default function AddNewCampaign({ history }) {
         onEditorStateChange={(editorState) => setState({ editorState })}
         editorStyle={{ height: 200, border: "1px solid" }}
       />
-      <div>
+      <div style={{ display: 'flex', justifyContent: 'flex-end', paddingTop: 10}}>
         <Button color="primary" variant="contained" onClick={add}>
           Add
         </Button>
